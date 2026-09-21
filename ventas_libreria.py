@@ -9,11 +9,11 @@ def cumple_meta(ingreso_total):
         return "No cumple"
 
 
-total1 = ingreso_total(150000, 80)
-print(total1, cumple_meta(total1))
+precio_comic = 57000
+precio_novela = 150000
 
-total2 = ingreso_total(57000, 200)
-print(total2, cumple_meta(total2))
+total_comic = ingreso_total(precio_comic, 200)
+print(total_comic, cumple_meta(total_comic))
 
-total3 = ingreso_total(60000, 150)
-print(total3, cumple_meta(total3))
+total_novela = ingreso_total(precio_novela, 80)
+print(total_novela, cumple_meta(total_novela))
